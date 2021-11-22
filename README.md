@@ -22,6 +22,7 @@ curl --location --request POST '192.168.254.1/api/v1/connect' \
 }'
 ```
 * After a few second your Smart Switch is available in your Network.
+* If you set the params `ip`,`dns`,`gw` and `mask` you can also define a fixed ip
 
 You can test the connection with a simple status request:
 ```bash
